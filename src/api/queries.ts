@@ -1,0 +1,26 @@
+export const GET_COUNTRIES = `
+{
+	countries{
+    code,
+    name,
+    continent{
+      code,
+      name
+    },
+    capital,
+    languages{
+      code,
+      name,
+    },
+    currency,
+    states{
+			code,
+      country{
+        code,
+        name,
+      },
+      name
+    }
+  }
+}
+`

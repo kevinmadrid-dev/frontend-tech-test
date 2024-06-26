@@ -12,9 +12,10 @@ Para la obtención de la información e imágenes se utilizaron 2 APIs.
 * ![VueJs](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 * ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 🔗 [Link de la API de información de países](https://countries.trevorblades.com/)
-## 🔗 [Link de la API de banderas de países](https://www.banderas-mundo.es/descargar/api)
-## 🔗 [Link de la API de imágenes de países](https://pixabay.com/api/docs/)
+## 🔗 Links de APIs utilizadas
+* [Link de la API de información de países](https://countries.trevorblades.com/)
+* [Link de la API de banderas de países](https://www.banderas-mundo.es/descargar/api)
+* [Link de la API de imágenes de países](https://pixabay.com/api/docs/)
 
 ## 📌 Comentarios adicionales
 Este proyecto es un reto técnico para entrar a una empresa de desarrollo de software. Si tienes alguna pregunta o sugerencia, escríbeme a mis redes sociales.
@@ -33,4 +34,4 @@ npm run build
 **IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
 
 ## 💻 Contacto
-* Linkedin => [Clic aquí](https://www.linkedin.com/in/kevinmadrid-dev/)
+* [LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)

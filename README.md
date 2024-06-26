@@ -13,9 +13,9 @@ Para la obtención de la información e imágenes se utilizaron 2 APIs.
 * ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ## 🔗 Links de APIs utilizadas
-* [Link de la API de información de países](https://countries.trevorblades.com/)
-* [Link de la API de banderas de países](https://www.banderas-mundo.es/descargar/api)
-* [Link de la API de imágenes de países](https://pixabay.com/api/docs/)
+* Link de la API de información de países => [https://countries.trevorblades.com/](https://countries.trevorblades.com/)
+* Link de la API de banderas de países => [https://www.banderas-mundo.es/descargar/api](https://www.banderas-mundo.es/descargar/api)
+* Link de la API de imágenes de países => [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
 
 ## 📌 Comentarios adicionales
 Este proyecto es un reto técnico para entrar a una empresa de desarrollo de software. Si tienes alguna pregunta o sugerencia, escríbeme a mis redes sociales.

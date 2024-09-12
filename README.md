@@ -33,6 +33,10 @@ npm run dev
 
 **IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
+### App deploy
+
+[GeoExplorer in Vercel](https://frontend-tech-test-theta.vercel.app/)
+
 ## Developer contact
 
 - [LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)

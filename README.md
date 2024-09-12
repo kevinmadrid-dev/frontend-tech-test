@@ -1,37 +1,36 @@
-# Vue.js - App web para visualizar los países
+# GeoExplorer
 
-## 📦 Sobre el repositorio
-App web para explorar la información sobre continentes y países. Interfaz adaptable y responsiva para diferentes dispositivos.
-Para la obtención de la información e imágenes se utilizaron 2 APIs.
+## Description
 
-## ✔️ [El respositorio aquí](https://github.com/K3yJey/FrontEnd_techTest)
+Web app to explore information about continents and countries. Two APIs were used to obtain the information and images.
 
-## 🔧 Tecnologías utilizadas
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-* ![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![VueJs](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-* ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+## Technologies
 
-## 🔗 Links de APIs utilizadas
-* Link de la API de información de países => [https://countries.trevorblades.com/](https://countries.trevorblades.com/)
-* Link de la API de banderas de países => [https://www.banderas-mundo.es/descargar/api](https://www.banderas-mundo.es/descargar/api)
-* Link de la API de imágenes de países => [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![Javascript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![VueJs](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 📌 Comentarios adicionales
-Este proyecto es un reto técnico para entrar a una empresa de desarrollo de software. Si tienes alguna pregunta o sugerencia, escríbeme a mis redes sociales.
+## APIs
 
-## ⚙️ Comandos para ejecutar el servidor
-``` console
+- Country Information API Link => [https://countries.trevorblades.com/](https://countries.trevorblades.com/)
+- Country Flags API Link => [https://www.banderas-mundo.es/descargar/api](https://www.banderas-mundo.es/descargar/api)
+- Country Images API Link => [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
+
+## Additional comments
+
+Technical challenge for a software development company.
+
+## Getting started
+
+↓ Start server.
+
+```console
 npm run dev
 ```
-↑ Iniciar el servidor.
 
-``` console
-npm run build
-```
-↑ Compilar el proyecto para producción
+**IMPORTANT: Keep the terminal running for the correct execution of the app.**
 
-**IMPORTANTE: Mantener la terminal corriendo para la correcta ejecución de la app.**
+## Developer contact
 
-## 💻 Contacto
-* [LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)
+- [LinkedIn](https://www.linkedin.com/in/kevinmadrid-dev/)

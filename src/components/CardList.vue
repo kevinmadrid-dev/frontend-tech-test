@@ -6,28 +6,27 @@
     />
   </div>
 
-  <div class="mainDiv flex">
+  <div class="mainDiv flex flex-col lg:flex-row gap-4">
     <div
-      class="cardList relative flex flex-wrap gap-[2rem] justify-center cursor-pointer p-[1rem] z-0"
-      :class="[selectedCountry ? 'w-[60%]' : 'w-full']"
-      style="position: relative"
+      class="cardList flex flex-wrap gap-[2rem] justify-center cursor-pointer p-[1rem] transition-all duration-300"
+      :class="[selectedCountry ? 'w-full lg:w-[60%]' : 'w-full']"
     >
       <div
         v-for="country in filteredCountries"
         :key="country.code"
         @click="selectCountry(country)"
-        class="cardCountries w-[16rem] h-[12rem] rounded-[1.5rem] shadow-lg"
+        class="cardCountries w-[16rem] h-[12rem] rounded-[1.5rem] shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105"
         :class="[
           selectedCountry && selectedCountry.code === country.code
-            ? 'bg-[#80cbf9]'
-            : 'bg-[#fff]'
+            ? 'bg-[#80cbf9] ring-2 ring-[#3cb1f4]'
+            : 'bg-[#fff] hover:bg-gray-50'
         ]"
       >
-        <div class="divImgCard h-[7rem]">
+        <div class="divImgCard h-[7rem] overflow-hidden">
           <img
             :src="country.image || imgContinents"
             alt="Country Image"
-            class="imgCard w-full h-full rounded-t-[1.5rem]"
+            class="imgCard w-full h-full rounded-t-[1.5rem] object-cover transition-transform duration-300 hover:scale-110"
           />
         </div>
 
@@ -36,7 +35,7 @@
             <img
               :src="getCountryFlagURL(country.code)"
               alt="Country Flag"
-              class="flagImg w-[3rem] h-[2rem]"
+              class="flagImg w-[3rem] h-[2rem] object-cover rounded-sm"
             />
           </div>
 
@@ -69,7 +68,7 @@
       </div>
     </div>
 
-    <div v-if="selectedCountry" class="divDetails w-[40%] p-[1rem]">
+    <div v-if="selectedCountry" class="divDetails w-full lg:w-[40%] p-[1rem]">
       <CountryDetails :country="selectedCountry" />
     </div>
   </div>
@@ -162,4 +161,41 @@ const selectCountry = (country: Country) => {
 onMounted(fetchCountries)
 </script>
 
-<style scoped></style>
+<style scoped>
+@media (max-width: 1024px) {
+  .mainDiv {
+    flex-direction: column;
+  }
+
+  .cardList {
+    width: 100% !important;
+  }
+
+  .divDetails {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardCountries {
+    width: 14rem;
+    height: 11rem;
+  }
+
+  .searchBar {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardCountries {
+    width: 12rem;
+    height: 10rem;
+  }
+
+  .cardList {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+}
+</style>

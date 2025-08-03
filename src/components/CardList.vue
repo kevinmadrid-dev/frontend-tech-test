@@ -22,11 +22,11 @@
             : 'bg-[#fff] hover:bg-gray-50'
         ]"
       >
-        <div class="divImgCard h-[7rem] overflow-hidden">
+        <div class="divImgCard h-[7rem] rounded-t-[1.5rem] overflow-hidden">
           <img
             :src="country.image || imgContinents"
             alt="Country Image"
-            class="imgCard w-full h-full rounded-t-[1.5rem] object-cover transition-transform duration-300 hover:scale-110"
+            class="imgCard w-full h-full object-cover transition-transform duration-300 hover:scale-110"
           />
         </div>
 

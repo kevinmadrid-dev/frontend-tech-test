@@ -3,7 +3,7 @@
     <div class="relative w-[80%]">
       <input
         type="text"
-        placeholder="Escribe el país que deseas ver"
+        placeholder="Nombre del País"
         v-model="searchTerm"
         @input="handleInput"
         @focus="showDropdown = true"
